@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imdb.com</title>
+    <link rel="stylesheet" href="../node_modules/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@7.4.47/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <nav>
+            <ul id="ulbox">
+                <li>
+                    <a href="#">
+                        <img src="../public/images/menu/IMDb_Logo_Square.svg.webp" alt="logo">
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <div class="hambergerMenu" id="hambergerMenu">
+
+                            <span>
+                                Menu
+                            </span>
+
+
+                        </div>
+                    </a>
+                </li>
+
+                <li>
+                    <div class="searchInput">
+
+                        <input type="text" placeholder="Search IMDb">
+                        <span class="clearIcon"></span>
+
+
+                    </div>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <img src="../public/images/menu/imdb_icon_231935.png" alt="imdb pro">
+
+                    </a>
+                </li>
+
+                <li id="watchList">
+                    <a href="#">
+                        <div class="watchList">
+                            <img src="../public/images/menu/svgexport-25.svg" alt="plus svg for watchlist">
+                            <span>WatchList</span>
+                        </div>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <div class="signIn">
+                            <span>Sign in</span>
+                        </div>
+
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <div class="lanPart">
+                            <span>EN</span>
+
+                        </div>
+                    </a>
+
+                </li>
+
+            </ul>
+        </nav>
+    </div>
+
+    <div class="cover" id="cover">
+        <div class="coverLeft">
+            <div class="slider-up">
+                <div class="swiper sliderCover">
+                    <div class="swiper-wrapper" id="swiper-left-image-cover">
+
+
+                    </div>
+
+                    <div class="box-prev-next">
+                        <div class="prev-btn" id="pev-btn">
+
+                            <img src="../public/images/coverImage/coverSvg/left-angel.svg" alt="">
+                        </div>
+
+                        <div class="next-btn" id="next-btn">
+                            <img src="../public/images/coverImage/coverSvg/right-angel.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--  <div class="slider-down">
+
+                <div class="left">
+                    <div class="image">
+                        <img src="../public/images/coverImage/Andrew Scott in Elsinore/MV5BNjA5YmYyZDUtNDZjZC00OGQyLWEzYzctOGE5MjdlZTkwMGMwXkEyXkFqcGdeQWpnYW1i._V1_QL40_QL75_UX1000_CR0,0,1000,563_.jpg"
+                            alt="">
+                    </div>
+                    <div class="bookmarkImg">
+                        <img src="../public/images/coverImage/coverSvg/bookmark.svg" alt="">
+
+                    </div>
+
+                    <div class="plus">
+                        <img src="../public/images/coverImage/coverSvg/plus .svg" alt="">
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="left">
+                        <img src="../public/images/coverImage/coverSvg/video.svg" alt="">
+
+                    </div>
+                    <div class="right">
+                        <div class="up">
+                            <div>
+                                <h2>You Can See Everything</h2>
+                            </div>
+                            <div>
+                                <span>2:07</span>
+                            </div>
+                        </div>
+                        <div class="down">
+                            <div>
+                                <span>Watch the Trailer</span>
+                            </div>
+                            <div class="rating">
+
+                                <div>
+                                    <img src="../public/images/coverImage/coverSvg/tum finger.svg" alt="">
+                                </div>
+
+                                <span>231</span>
+
+
+
+
+
+                                <img src="../public/images/coverImage/coverSvg/heart.svg" class="img-close1" alt="">
+                                <img src="../public/images/coverImage/coverSvg/lamp.svg" class="img-close2" alt="">
+
+
+                                <span>123</span>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+            </div> -->
+        </div>
+
+        <div class="coverRight" id="coverRight">
+            <div class="spanGold">
+                <span>Up Next</span>
+            </div>
+            <div class="swiper sliderUpNext">
+
+                <div class="swiper-wrapper " id="swiperRight">
+
+                </div>
+
+            </div>
+            <div class="spanTrailers">
+                <span>Browse trailers</span>
+                <img src="../public/images/coverImage/coverSvg/right-angel.svg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div id="bigMenuBoxes"></div>
+
+    <div class="categoryOne" id="categoryOne"> </div>
+
+
+    <div class="featuredToday">
+        <div class="insideFeaturedToday">
+            <div class="up">
+                <h3>Featured today</h3>
+            </div>
+
+            <div class="swiper swiperfeaturedToday">
+                <div class="swiper-wrapper" id="featuredToday">
+
+
+                </div>
+                <div class="swiper-button-prev-next">
+                    <div class="swiper-button-prev">
+                        <img src="../public/images/coverImage/coverSvg/left-angel.svg" alt="">
+                    </div>
+
+                    <div class="swiper-button-next">
+                        <img src="../public/images/coverImage/coverSvg/right-angel.svg" alt="">
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <div class="tedLassoSection">
+
+        <div class="leftTedLasso">
+            <div class="upText">
+
+                <div class="leftOne">
+                    <div class="goldLine"></div>
+                    <h3>Ted Lasso Episode Spotlight</h3>
+                    <img src="../public/images/coverImage/coverSvg/right-angel.svg" alt="">
+                </div>
+                <div class="titleDescription">
+                    <span>Which Season 4 episode was the best?</span>
+                </div>
+            </div>
+
+            <div class="imgDetail">
+                <div class="left">
+                    <img src="../public/images/tedLasso/tedLassoLeftSmall.jpg" alt="">
+                    <div class="plusBookmarkbox">
+                        <div class="bookMark">
+                            <img src="../public/images/tedLasso/bookmarkdark.svg" alt="">
+                        </div>
+                        <div class="plusMark">
+                            <img src="../public/images/tedLasso/pluswhite.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="right">
+                    <h4>Ted Lasso</h4>
+                    <div class="links1">
+                        <span>Creators</span>
+                        <ul>
+                            <li> Brendan Hunt</li>
+                            <li><span>.</span> Joe Kelly</li>
+                            <li><span>.</span>Bill Lawrence</li>
+                            <li><span>.</span>Jason Sudeikis</li>
+                        </ul>
+                    </div>
+                    <div class="links2">
+                        <span>Stars</span>
+                        <ul>
+                            <li>Jason Sudeikis</li>
+                            <li><span>.</span>Hannah Waddingham</li>
+                            <li><span>.</span>Jeremy Swift</li>
+                            <li><span>.</span>Juno Temple</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="rightTedLasso">
+            <div class="seasonsBox">
+                <div class="titleSisean">
+                    <span>Season</span>
+                </div>
+                <div class="seasons">
+                    <span data-season="S1">S1</span>
+                    <span data-season="S2">S2</span>
+                    <span data-season="S3">S3</span>
+                    <span data-season="S4">S4</span>
+                </div>
+
+
+            </div>
+            <div class="lineBox">
+
+            </div>
+            <div id="seasonAverage"> </div>
+
+
+
+
+
+            <div class="episodeRanking">
+                <div class="rankingEpisodeBoxes">
+                    <div class="avarageLine">
+
+                    </div>
+                    <div class="rankBoxes" id="rankBoxes">
+
+
+                    </div>
+
+                </div>
+                <div class="solidLine"></div>
+            </div>
+            <div class="swiperEpisode">
+
+
+                <div class="swiper swiperTed">
+                    <div class="swiper-wrapper" id="swiperTedl">
+
+                    </div>
+                    <div class="swiper-button-prev-next">
+                        <div class="swiper-button-prev">
+                            <img src="../public/images/coverImage/coverSvg/left-angel.svg" alt="">
+                        </div>
+
+                        <div class="swiper-button-next">
+                            <img src="../public/images/coverImage/coverSvg/right-angel.svg" alt="">
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+    <div class="trendingPeople">
+        <div class="topText">
+            <span></span>
+            <h3>Trending people</h3>
+            <img src="../public/images/coverImage/coverSvg/right-angel.svg" alt="">
+        </div>
+
+        <div class="swiperTrengingBoxes">
+            <div class="swiper trendingSwiper">
+                <div class="swiper-wrapper displaygapSwiper" id="trendingSwiper">
+                </div>
+
+                <div class="swiper-button-prev-next">
+                    <div class="swiper-button-prev">
+                        <img src="../public/images/coverImage/coverSvg/left-angel.svg" alt="">
+                    </div>
+
+                    <div class="swiper-button-next">
+                        <img src="../public/images/coverImage/coverSvg/right-angel.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="whatToWatch">
+        <div>
+            <h3>What to watch</h3>
+        </div>
+        <div>
+            <span>Get more recommendations</span>
+        </div>
+
+
+    </div>
+
+    <div class="topPicks">
+
+        <div class="upText">
+            <div class="leftOne">
+                <div class="goldLine"></div>
+                <h3>Top picks</h3>
+                <img src="../public/images/coverImage/coverSvg/right-angel.svg" alt="">
+            </div>
+            <div class="titleDescription">
+                <span>TV shows and movies just for you</span>
+            </div>
+        </div>
+        <div class="signInTopPicks">
+            <a href="">sign in</a>
+        </div>
+
+        <div class="swiperTopPicksBoxes">
+            <div class="swiper topPicksSwiper">
+                <div class="swiper-wrapper " id="topPicksSwiperId">
+
+                </div>
+
+                <div class="swiper-button-prev-next">
+                    <div class="swiper-button-prev">
+                        <img src="../public/images/coverImage/coverSvg/left-angel.svg" alt="">
+                    </div>
+
+                    <div class="swiper-button-next">
+                        <img src="../public/images/coverImage/coverSvg/right-angel.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<div class="modaltopPicksBoxes">
+ 
+</div>
+    <div class="fromYourWatchList">
+        <div class="upText">
+            <div class="leftOne">
+                <div class="goldLine"></div>
+                <h3>From your Watchlist</h3>
+                <img src="../public/images/coverImage/coverSvg/right-angel.svg" alt="">
+            </div>
+        </div>
+        <div class="signBoxImdb">
+
+            <div class="plusBookmarkbox">
+                <div class="bookMark">
+                    <img src="../public/images/tedLasso/bookmarkdark.svg" alt="">
+                </div>
+                <div class="plusMark">
+                    <img src="../public/images/tedLasso/pluswhite.svg" alt="">
+                </div>
+            </div>
+            <div class="textBox">
+                <span class="toptext">Sign in to access your Watchlist</span>
+                <span class="downtext">Save shows and movies to keep track of what you want to watch.</span>
+            </div>
+            <div class="buttonBox">
+                <div class="signIn">
+                    <a href="">
+                        <span>Sign in to IMDb</span>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- footer------------------------------------------- -->
+    <div class="footerBoxes">
+        <div class="signIn">
+            <a href="">
+                <span>Sign in for more access</span>
+            </a>
+        </div>
+        <div class="middleTwoBoxes">
+            <div class="left1">
+                <div class="up1">
+                    <span>Follow IMDb on social</span>
+                </div>
+                <div class="down1">
+                    <ul>
+                        <li><img src="../public/images/footer/tiktok.svg" alt=""></li>
+                        <li><img src="../public/images/footer/instagram.svg" alt=""></li>
+                        <li><img src="../public/images/footer/x.svg" alt=""></li>
+                        <li><img src="../public/images/footer/youtube.svg" alt=""></li>
+                        <li><img src="../public/images/footer/facebook.svg" alt=""></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="right1">
+                <div class="left2">
+                    <span class="spanUp">Get the IMDb app</span>
+                    <span class="spanDown">For Android and iOS</span>
+                </div>
+                <div class="right2">
+                    <img src="../public/images/footer/qrcode.png" alt="">
+                </div>
+
+            </div>
+        </div>
+        <div class="bottomsLi">
+            <div>
+                <ul>
+                    <a href="">
+                        <li>Help</li>
+                        <img src="../public/images/footer/pointRight.svg" alt="">
+                    </a>
+                    <a href="">
+                        <li>Site Index</li>
+                        <img src="../public/images/footer/pointRight.svg" alt="">
+                    </a>
+                    <a href="">
+                        <li>IMDbPro</li>
+                        <img src="../public/images/footer/pointRight.svg" alt="">
+                    </a>
+                    <a href="">
+                        <li>Box Office Mojo</li>
+                        <img src="../public/images/footer/pointRight.svg" alt="">
+                    </a>
+                    <a href="">
+                        <li>License IMDb Data</li>
+                        <img src="../public/images/footer/pointRight.svg" alt="">
+                    </a>
+                </ul>
+
+            </div>
+            <div>
+                <ul>
+                    <a href="">
+                        <li>Help</li>
+
+                    </a>
+                    <a href="">
+                        <li>Site Index</li>
+                        <img src="../public/images/footer/pointRight.svg" alt="">
+                    </a>
+                    <a href="">
+                        <li>IMDbPro</li>
+                        <img src="../public/images/footer/pointRight.svg" alt="">
+                    </a>
+                    <a href="">
+                        <li>Box Office Mojo</li>
+
+                    </a>
+                    <a href="">
+                        <li>License IMDb Data</li>
+
+                    </a>
+                    <a class="checkMark" href="">
+                        <img src="../public/images/footer/checkmark.svg" alt="">
+                        <li>License IMDb Data</li>
+
+                    </a>
+
+                </ul>
+            </div>
+
+        </div>
+        <div class="amazon">
+            <img src="../public/images/footer/amazonMark.svg" alt="">
+        </div>
+        <div class="copyRight">
+            <p>© 1990-2026 by IMDb.com, Inc.</p>
+        </div>
+
+    </div>
+
+    <script src="../node_modules/swiper/swiper-bundle.min.js"></script>
+
+    <script src="./js/main.js" type="module"></script>
+</body>
+
+</html>

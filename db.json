@@ -1,0 +1,894 @@
+{
+  "movie": [
+    {
+      "id": 1,
+      "name": "Andrew Scott in 'Elsinore'",
+      "image": {
+        "src1": "../public/images/coverImage/AndrewScottinElsinore/big.jpg",
+        "alt": "Andrew Scott in 'Elsinore",
+        "src2": "../public/images/coverImage/AndrewScottinElsinore/small.jpg"
+      },
+      "video": "#",
+      "trailerMovie": "Watch the Trailer",
+      "timetrailer": "2:29",
+      "rating": {
+        "coutOflike": 65,
+        "imojiCount": {
+          "src1": "../public/images/coverImage/coverSvg/heart.svg",
+          "src2": "../public/images/coverImage/coverSvg/clap.svg",
+          "count": 31
+        }
+      }
+    },
+
+    {
+      "id": 2,
+      "name": "'The Man with the Bag'",
+      "image": {
+        "src1": "../public/images/coverImage/TheManwiththeBag/big.jpg",
+        "alt": "The Man with the Bag",
+        "src2": "../public/images/coverImage/TheManwiththeBag/small.jpg"
+      },
+      "video": "#",
+      "trailerMovie": "Watch the Trailer",
+      "timetrailer": "0:41",
+      "rating": {
+        "coutOflike": 92,
+        "imojiCount": {
+          "src1": "../public/images/coverImage/coverSvg/heart.svg",
+          "src2": "../public/images/coverImage/coverSvg/starEYES.svg",
+          "count": 30
+        }
+      }
+    },
+
+    {
+      "id": 3,
+      "name": "'Werwulf' Arrives Dec. 25",
+      "image": {
+        "src1": "../public/images/coverImage/WerwulfArrivesDe/big.jpg",
+        "alt": "'Werwulf' Arrives Dec. 25",
+        "src2": "../public/images/coverImage/WerwulfArrivesDe/small.jpg"
+      },
+      "video": "#",
+      "trailerMovie": "Watch the New Trailer",
+      "timetrailer": "2:30",
+      "rating": {
+        "coutOflike": 521,
+        "imojiCount": {
+          "src1": "../public/images/coverImage/coverSvg/heart.svg",
+          "src2": "../public/images/coverImage/coverSvg/clap.svg",
+          "count": 210
+        }
+      }
+    },
+
+    {
+      "id": 4,
+      "name": "'Small Prophets'",
+      "image": {
+        "src1": "../public/images/coverImage/SmallProphets/big.jpg",
+        "alt": "'Small Prophets'",
+        "src2": "../public/images/coverImage/SmallProphets/small.jpg"
+      },
+      "video": "#",
+      "trailerMovie": "Watch the Trailer",
+      "timetrailer": "1:53",
+      "rating": {
+        "coutOflike": 47,
+        "imojiCount": {
+          "src1": "../public/images/coverImage/coverSvg/heart.svg",
+          "src2": "../public/images/coverImage/coverSvg/clap.svg",
+          "count": 17
+        }
+      }
+    },
+
+    {
+      "id": 5,
+      "name": "'Dexter: Resurrection'",
+      "image": {
+        "src1": "../public/images/coverImage/dexter/big.jpg",
+        "alt": "'Dexter: Resurrection'",
+        "src2": "../public/images/coverImage/dexter/small.jpg"
+      },
+      "video": "#",
+      "trailerMovie": "Watch the Season 2 Trailer",
+      "timetrailer": "2:00",
+      "rating": {
+        "coutOflike": 506,
+        "imojiCount": {
+          "src1": "../public/images/coverImage/coverSvg/heart.svg",
+          "src2": "../public/images/coverImage/coverSvg/starEYES.svg",
+          "count": 332
+        }
+      }
+    },
+
+    {
+      "id": 6,
+      "name": "The Raw Performances and Real Scares Behind 'Verity'",
+      "image": {
+        "src1": "../public/images/coverImage/TheRawPerformancesandRealScareBehind'Verity'/big.jpg",
+        "alt": "The Raw Performances and Real Scares Behind 'Verity'",
+        "src2": "../public/images/coverImage/TheRawPerformancesandRealScareBehind'Verity'/small.jpg"
+      },
+      "video": "#",
+      "trailerMovie": "Watch the Trailer",
+      "timetrailer": "6:54",
+      "rating": {
+        "coutOflike": 104,
+        "imojiCount": {
+          "src1": "../public/images/coverImage/coverSvg/heart.svg",
+          "src2": "../public/images/coverImage/coverSvg/clap.svg",
+          "count": 48
+        }
+      }
+    },
+
+    {
+      "id": 7,
+      "name": "Johnny Depp Is 'Ebenezer'",
+      "image": {
+        "src1": "../public/images/coverImage/JohnnyDeppIsEbenezer/big.jpg",
+        "alt": "Johnny Depp Is 'Ebenezer",
+        "src2": "../public/images/coverImage/JohnnyDeppIsEbenezer/small.jpg"
+      },
+      "video": "#",
+      "trailerMovie": "Watch the Trailer",
+      "timetrailer": "2:35",
+      "rating": {
+        "coutOflike": 138,
+        "imojiCount": {
+          "src1": "../public/images/coverImage/coverSvg/heart.svg",
+          "src2": "../public/images/coverImage/coverSvg/starEYES.svg",
+          "count": 32
+        }
+      }
+    },
+
+    {
+      "id": 8,
+      "name": "Getting Deep With the 'Digger Cast'",
+      "image": {
+        "src1": "../public/images/coverImage/GettingDeepWiththe'DiggerCast'/big.jpg",
+        "alt": "Getting Deep With the 'Digger Cast'",
+        "src2": "../public/images/coverImage/GettingDeepWiththe'DiggerCast'/small.jpg"
+      },
+      "video": "#",
+      "trailerMovie": "Watch Our Interview",
+      "timetrailer": "4:48",
+      "rating": {
+        "coutOflike": 34,
+        "imojiCount": {
+          "src1": "../public/images/coverImage/coverSvg/heart.svg",
+          "src2": "../public/images/coverImage/coverSvg/lamp.svg",
+          "count": 13
+        }
+      }
+    },
+
+    {
+      "id": 9,
+      "name": "Ethan Hawke Is Getting 'The Lowdown'",
+      "image": {
+        "src1": "../public/images/coverImage/EthanHawkeIsGettingTheLowdown/big.jpg",
+        "alt": "Ethan Hawke Is Getting 'The Lowdown'",
+        "src2": "../public/images/coverImage/EthanHawkeIsGettingTheLowdown/small.jpg"
+      },
+      "video": "#",
+      "trailerMovie": "Watch the Season 2 Trailer",
+      "timetrailer": "2:09",
+      "rating": {
+        "coutOflike": 104,
+        "imojiCount": {
+          "src1": "../public/images/coverImage/coverSvg/heart.svg",
+          "src2": "../public/images/coverImage/coverSvg/starEYES.svg",
+          "count": 62
+        }
+      }
+    },
+
+    {
+      "id": 10,
+      "name": "'You Can See Everything'",
+      "image": {
+        "src1": "../public/images/coverImage/YouCanSeeEverything/big.jpg",
+        "alt": "'You Can See Everything'",
+        "src2": "../public/images/coverImage/YouCanSeeEverything/small.jpg"
+      },
+      "video": "#",
+      "trailerMovie": "Watch the Trailer",
+      "timetrailer": "2:28",
+      "rating": {
+        "coutOflike": 279,
+        "imojiCount": {
+          "src1": "../public/images/coverImage/coverSvg/heart.svg",
+          "src2": "../public/images/coverImage/coverSvg/lamp.svg",
+          "count": 104
+        }
+      }
+    },
+
+    {
+      "id": 11,
+      "name": "'Nobody Wants' This Returns Oct. 22",
+      "image": {
+        "src1": "../public/images/coverImage/NobodyWantsThiReturnsOct22/big.jpg",
+        "alt": "'Nobody Wants' This Returns Oct. 22",
+        "src2": "../public/images/coverImage/NobodyWantsThiReturnsOct22/small.jpg"
+      },
+      "video": "#",
+      "trailerMovie": "Watch the Trailer",
+      "timetrailer": "2:29",
+      "rating": {
+        "coutOflike": 65,
+        "imojiCount": {
+          "src1": "../public/images/coverImage/coverSvg/heart.svg",
+          "src2": "../public/images/coverImage/coverSvg/clap.svg",
+          "count": 31
+        }
+      }
+    },
+
+    {
+      "id": 12,
+      "name": "'La bola negra' Trailer",
+      "image": {
+        "src1": "../public/images/coverImage/AndrewScottinElsinore/big.jpg",
+        "alt": "'La bola negra' Trailere",
+        "src2": "../public/images/coverImage/AndrewScottinElsinore/small.jpg"
+      },
+      "video": "#",
+      "trailerMovie": "See the TIFF People's Choice Winner",
+      "timetrailer": "2:03",
+      "rating": {
+        "coutOflike": 161,
+        "imojiCount": {
+          "src1": "../public/images/coverImage/coverSvg/heart.svg",
+          "src2": "../public/images/coverImage/coverSvg/starEYES.svg",
+          "count": 88
+        }
+      }
+    }
+  ],
+  "bigMenu": [
+    {
+      "id": 1,
+      "label": "Movies",
+      "src": "../public/images/bigMenu/goldfilm.svg",
+      "item1": "Release calendar",
+      "item2": "Top 250 movies",
+      "item3": "Most popular movies",
+      "item4": "Browse movies by genre",
+      "item5": "Top box office",
+      "item6": "Showtimes & tickets",
+      "item7": "Movie news",
+      "item8": "India movie spotlight",
+      "item9": null,
+      "item10": null
+    },
+    {
+      "id": 2,
+      "label": "TV shows",
+      "src": "../public/images/bigMenu/goldtv.svg",
+      "item1": "What's on TV & streaming",
+      "item2": "Top 250 TV shows",
+      "item3": "Most popular TV shows",
+      "item4": "Browse TV shows by genre",
+      "item5": "TV news",
+      "item6": null,
+      "item7": null,
+      "item8": null,
+      "item9": null,
+      "item10": null
+    },
+    {
+      "id": 3,
+      "label": "Awards & events",
+      "src": "../public/images/bigMenu/goldAward.svg",
+      "item1": "Oscars",
+      "item2": "Primetime Emmys",
+      "item3": "Scary Good Picks",
+      "item4": "Halloween Family Fun",
+      "item5": "Fall TV Guide",
+      "item6": "Most Anticipated This Month",
+      "item7": "STARmeter Awards",
+      "item8": "Awards Central",
+      "item9": "Festival Central",
+      "item10": "All events"
+    },
+    {
+      "id": 4,
+      "label": "Celebs",
+      "src": "../public/images/bigMenu/celeb.svg",
+      "item1": "Born today",
+      "item2": "Trending people",
+      "item3": "Celebrity news",
+      "item4": null,
+      "item5": null,
+      "item6": null,
+      "item7": null,
+      "item8": null,
+      "item9": null,
+      "item10": null
+    },
+    {
+      "id": 5,
+      "label": "Watch",
+      "src": "../public/images/bigMenu/goldwatch.svg",
+      "item1": "What to watch",
+      "item2": "Latest trailers",
+      "item3": "IMDb Originals",
+      "item4": "IMDb Picks",
+      "item5": "IMDb Spotlight",
+      "item6": "Family entertainment guide",
+      "item7": "IMDb Podcasts",
+      "item8": null,
+      "item9": null,
+      "item10": null
+    },
+    {
+      "id": 6,
+      "label": "Community",
+      "src": "../public/images/bigMenu/comunicate.svg",
+      "item1": "IMDb Labs",
+      "item2": "Help center",
+      "item3": "Contributor zone",
+      "item4": "Polls",
+      "item5": null,
+      "item6": null,
+      "item7": null,
+      "item8": null,
+      "item9": null,
+      "item10": null
+    }
+  ],
+  "categoryOne": [
+    {
+      "id": "1",
+      "title": "Scary Good",
+      "src": "../public/images/coverImage/coverSvg/right-angel.svg",
+      "href": "#"
+    },
+    {
+      "id": "2",
+      "title": "Halloween Family Fun",
+      "src": "../public/images/coverImage/coverSvg/right-angel.svg",
+      "href": "#"
+    },
+    {
+      "id": "3",
+      "title": "Fall TV Watch Guide",
+      "src": "../public/images/coverImage/coverSvg/right-angel.svg",
+      "href": "#"
+    },
+    {
+      "id": "4",
+      "title": "IMDb Labs",
+      "src": "../public/images/coverImage/coverSvg/right-angel.svg",
+      "href": "#"
+    }
+  ],
+  "featuredToday": [
+    {
+      "id": "1",
+      "src": "../public/images/featuredToday/1.jpg",
+      "href": "#",
+      "detail1": "What to Watch in October",
+      "detail2": "Add these to your Watchlist",
+      "categoryname": "List",
+      "categoryimage": "../public/images/featuredToday/listForFeatured.svg"
+    },
+    {
+      "id": "2",
+      "src": "../public/images/featuredToday/2.jpg",
+      "href": "#",
+      "detail1": "30 Not-So-Scary Picks for Halloween",
+      "detail2": "See the list",
+      "categoryname": "List",
+      "categoryimage": "../public/images/featuredToday/listForFeatured.svg"
+    },
+    {
+      "id": "3",
+      "src": "../public/images/featuredToday/3.jpg",
+      "href": "#",
+      "detail1": "21st Century Scream Queens",
+      "detail2": "See the gallery",
+      "categoryname": "Photo",
+      "categoryimage": "../public/images/featuredToday/photoForFeatured.svg"
+    },
+    {
+      "id": "4",
+      "src": "../public/images/featuredToday/4.jpg",
+      "href": "#",
+      "detail1": "Top Fall TV Picks",
+      "detail2": "See the watch guide",
+      "categoryname": "List",
+      "categoryimage": "../public/images/featuredToday/listForFeatured.svg"
+    },
+    {
+      "id": "5",
+      "src": "../public/images/featuredToday/5.jpg",
+      "href": "#",
+      "detail1": "Poll: Best Of Matthew Rhys?",
+      "detail2": "Vote now",
+      "categoryname": "Pole",
+      "categoryimage": "../public/images/featuredToday/listForFeatured.svg"
+    },
+    {
+      "id": "6",
+      "src": "../public/images/featuredToday/6.jpg",
+      "href": "#",
+      "detail1": "October 2026 TV and Streaming Premiere Dates",
+      "detail2": "See the list",
+      "categoryname": "List",
+      "categoryimage": "../public/images/featuredToday/listForFeatured.svg"
+    },
+    {
+      "id": "7",
+      "src": "../public/images/featuredToday/7.jpg",
+      "href": "#",
+      "detail1": "The Best New and Upcoming Horror",
+      "detail2": "See the list",
+      "categoryname": "List",
+      "categoryimage": "../public/images/featuredToday/listForFeatured.svg"
+    },
+    {
+      "id": "8",
+      "src": "../public/images/featuredToday/8.jpg",
+      "href": "#",
+      "detail1": "Did 'The Beast in Me' Just Get Renewed?",
+      "detail2": "See the watch guide",
+      "categoryname": "List",
+      "categoryimage": "../public/images/featuredToday/listForFeatured.svg"
+    }
+  ],
+  "tedLasso": [
+    {
+      "id": 1,
+      "season": "S1",
+      "avarageRate": 8.5,
+      "avarageFrom": "110k",
+      "episodes": [
+        {
+          "id": 1,
+          "name": "E1",
+          "titleText": "Pilot",
+          "src": "../public/images/tedLasso/s1e1.jpg",
+          "date": "Fri, Aug 14, 2020",
+          "rate": {
+            "rating": 7.8,
+            "countNumber": "&nbsp;(13K)"
+          },
+          "paragraph": "An optimistic American football coach is hired to lead AFC Richmond, a struggling English soccer club, despite having no experience with the sport."
+        },
+        {
+          "id": 2,
+          "name": "E2",
+          "titleText": "Biscuits",
+          "src": "../public/images/tedLasso/s1e2.jpg",
+          "date": "Fri, Aug 14, 2020",
+          "rate": {
+            "rating": 8.1,
+            "countNumber": "&nbsp;(11K)"
+          },
+          "paragraph": "On his first full day coaching AFC Richmond, Ted tries to win over Rebecca, connect with his players and face unhappy fans before the club's first match."
+        },
+        {
+          "id": 3,
+          "name": "E3",
+          "titleText": "Trent Crimm: The Independent",
+          "src": "../public/images/tedLasso/s1e3.jpg",
+          "date": "Fri, Aug 14, 2020",
+          "rate": {
+            "rating": 8.5,
+            "countNumber": "&nbsp;(11K)"
+          },
+          "paragraph": "When skeptical journalist Trent Crimm shadows Ted for a day, a community outing with Roy offers a closer look at the new coach's unconventional style."
+        },
+        {
+          "id": 4,
+          "name": "E4",
+          "titleText": "For the Children",
+          "src": "../public/images/tedLasso/s1e4.jpg",
+          "date": "Fri, Aug 21, 2020",
+          "rate": {
+            "rating": 8.2,
+            "countNumber": "&nbsp;(11K)"
+          },
+          "paragraph": "At Rebecca's annual charity gala, Ted tackles a brewing locker-room feud while personal drama threatens to upstage the evening."
+        },
+        {
+          "id": 5,
+          "name": "E5",
+          "titleText": "Tan Lines",
+          "src": "../public/images/tedLasso/s1e5.jpg",
+          "date": "Fri, Aug 28, 2020",
+          "rate": {
+            "rating": 8.9,
+            "countNumber": "&nbsp;(11K)"
+          },
+          "paragraph": "Ted's wife and son visit from America as personal strain and mounting pressure at Richmond force a bold decision during a crucial match."
+        },
+        {
+          "id": 6,
+          "name": "E6",
+          "titleText": "Two Aces",
+          "src": "../public/images/tedLasso/s1e6.jpg",
+          "date": "Fri, Sep 4, 2020",
+          "rate": {
+            "rating": 8.5,
+            "countNumber": "&nbsp;(10K)"
+          },
+          "paragraph": "Ted turns to a gifted new signing when Jamie refuses to train, while Richmond bands together over a strange superstition."
+        },
+        {
+          "id": 7,
+          "name": "E7",
+          "titleText": "Make Rebecca Great Again",
+          "src": "../public/images/tedLasso/s1e7.jpg",
+          "date": "Fri, Sep 11, 2020",
+          "rate": {
+            "rating": 9,
+            "countNumber": "&nbsp;(12K)"
+          },
+          "paragraph": "As AFC Richmond heads to Liverpool for a crucial away match, Rebecca confronts a difficult anniversary and Ted struggles to stay upbeat in the face of painful personal news."
+        },
+        {
+          "id": 8,
+          "name": "E8",
+          "titleText": "The Diamond Dogs",
+          "src": "../public/images/tedLasso/s1e8.jpg",
+          "date": "Fri, Sep 18, 2020",
+          "rate": {
+            "rating": 8.7,
+            "countNumber": "&nbsp;(10K)"
+          },
+          "paragraph": "Ted and Roy turn to the Diamond Dogs for advice on matters of the heart, while Rebecca's past complicates the future of AFC Richmond."
+        },
+        {
+          "id": 9,
+          "name": "E9",
+          "titleText": "All Apologies",
+          "src": "../public/images/tedLasso/s1e9.jpg",
+          "date": "Fri, Sep 25, 2020",
+          "rate": {
+            "rating": 8.6,
+            "countNumber": "&nbsp;(9.6K)"
+          },
+          "paragraph": "As Richmond prepares for a crucial match, Ted faces pressure over Roy's future on the pitch, while Rebecca wrestles with the truth behind her plans."
+        },
+        {
+          "id": 10,
+          "name": "E10",
+          "titleText": "The Hope That Kills You",
+          "src": "../public/images/tedLasso/s1e10.jpg",
+          "date": "Fri, Oct 2, 2020",
+          "rate": {
+            "rating": 9.1,
+            "countNumber": "&nbsp;(12K)"
+          },
+          "paragraph": "Richmond plays a climactic match that will determine the fates of Ted and his club."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "season": "S2",
+      "avarageRate": 8.3,
+      "avarageFrom": "126k",
+      "episodes": [
+        {
+          "id": 1,
+          "name": "E1",
+          "titleText": "Goodbye Earl",
+          "src": "../public/images/tedLasso/s2e1.jpg",
+          "date": "Fri, Jul 23, 2021",
+          "rate": {
+            "rating": 7.6,
+            "countNumber": "(9.8K)"
+          },
+          "paragraph": "AFC Richmond brings in a sports psychologist to help the team overcome their unprecedented seven game tie-streak."
+        },
+        {
+          "id": 2,
+          "name": "E2",
+          "titleText": "Goodbye Earl",
+          "src": "../public/images/tedLasso/s2e2.jpg",
+          "date": "Fri, Jul 30, 2021",
+          "rate": {
+            "rating": 8,
+            "countNumber": "(9K)"
+          },
+          "paragraph": "Ted is surprised by the reappearance of a familiar face; Roy tries out a new gig."
+        },
+        {
+          "id": 3,
+          "name": "E3",
+          "titleText": "Do the Right-est Thing",
+          "src": "../public/images/tedLasso/s2e3.jpg",
+          "date": "Fri, Aug 6, 2021",
+          "rate": {
+            "rating": 8.4,
+            "countNumber": "(9.7K)"
+          },
+          "paragraph": "Rebecca has a special visitor shadow her at work. A player's return is not welcomed by the team."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "season": 3,
+      "episodes": []
+    },
+    {
+      "id": 4,
+      "season": 4,
+      "episodes": []
+    }
+  ],
+  "trendingPeople": [
+    {
+      "id": 1,
+      "name": "Ruby Stokes",
+      "currentRank": 50,
+      "peopleCount": 7.56,
+      "src": "../public/images/trendingPeaple/1.jpg",
+      "title": "Top rising"
+    },
+    {
+      "id": 2,
+      "name": "Ruby Stokes",
+      "currentRank": 50,
+      "peopleCount": 7.56,
+      "src": "../public/images/trendingPeaple/1.jpg",
+      "title": "Top rising"
+    },
+    {
+      "id": 3,
+      "name": "Ruby Stokes",
+      "currentRank": 50,
+      "peopleCount": 7.56,
+      "src": "../public/images/trendingPeaple/1.jpg",
+      "title": "Top rising"
+    },
+    {
+      "id": 4,
+      "name": "Ruby Stokes",
+      "currentRank": 50,
+      "peopleCount": 7.56,
+      "src": "../public/images/trendingPeaple/1.jpg",
+      "title": "Top rising"
+    },
+    {
+      "id": 5,
+      "name": "Ruby Stokes",
+      "currentRank": 50,
+      "peopleCount": 7.56,
+      "src": "../public/images/trendingPeaple/1.jpg",
+      "title": "Top rising"
+    },
+    {
+      "id": 6,
+      "name": "Ruby Stokes",
+      "currentRank": 50,
+      "peopleCount": 7.56,
+      "src": "../public/images/trendingPeaple/1.jpg",
+      "title": "Top rising"
+    },
+    {
+      "id": 7,
+      "name": "Ruby Stokes",
+      "currentRank": 50,
+      "peopleCount": 7.56,
+      "src": "../public/images/trendingPeaple/1.jpg",
+      "title": "Top rising"
+    },
+    {
+      "id": 8,
+      "name": "Ruby Stokes",
+      "currentRank": 50,
+      "peopleCount": 7.56,
+      "src": "../public/images/trendingPeaple/1.jpg",
+      "title": "Top rising"
+    },
+    {
+      "id": 9,
+      "name": "Ruby Stokes",
+      "currentRank": 50,
+      "peopleCount": 7.56,
+      "src": "../public/images/trendingPeaple/1.jpg",
+      "title": "Top rising"
+    },
+    {
+      "id": 10,
+      "name": "Ruby Stokes",
+      "currentRank": 50,
+      "peopleCount": 7.56,
+      "src": "../public/images/trendingPeaple/1.jpg",
+      "title": "Top rising"
+    },
+    {
+      "id": 11,
+      "name": "Ruby Stokes",
+      "currentRank": 50,
+      "peopleCount": 7.56,
+      "src": "../public/images/trendingPeaple/1.jpg",
+      "title": "Top rising"
+    },
+    {
+      "id": 12,
+      "name": "Ruby Stokes",
+      "currentRank": 50,
+      "peopleCount": 7.56,
+      "src": "../public/images/trendingPeaple/1.jpg",
+      "title": "Top rising"
+    },
+    {
+      "id": 13,
+      "name": "Ruby Stokes",
+      "currentRank": 50,
+      "peopleCount": 7.56,
+      "src": "../public/images/trendingPeaple/1.jpg",
+      "title": "Top rising"
+    }
+  ],
+  "topPicks":[
+    {
+      "id":1,
+      "src":"../public/images/topPicks/1.jpg",
+      "rank":8.8,
+      "name":"Forrest Gump",
+      "year":1994,
+      "hours":"2h 22min",
+      "code":"PG-13",
+      "rabkOutOfTen":"8.8/10",
+      "type":{
+        "one":"Drama",
+        "two":"Romance"
+      },
+      "brief":"The history of the United States from the 1950s to the '70s unfolds from the perspective of an Alabama man with an IQ of 75, who yearns to be reunited with his childhood sweetheart.",
+      "moreMovie":{
+        
+        "one":"Pulp Fiction",
+        "two":"Ted Lasso",
+        "three":null
+      }
+
+
+    },
+     {
+      "id":2,
+      "src":"../public/images/topPicks/1.jpg",
+      "rank":8.8,
+      "name":"Forrest Gump",
+      "year":1994,
+      "hours":"2h 22min",
+      "code":"PG-13",
+      "rabkOutOfTen":"8.8/10",
+      "type":{
+        "one":"Drama",
+        "two":"Romance"
+      },
+      "brief":"The history of the United States from the 1950s to the '70s unfolds from the perspective of an Alabama man with an IQ of 75, who yearns to be reunited with his childhood sweetheart.",
+      "moreMovie":{
+        "one":"Because of your interest in",
+        "two":"Pulp Fiction",
+        "three":"Ted Lasso"
+      }
+
+
+    },
+     {
+      "id":3,
+      "src":"../public/images/topPicks/1.jpg",
+      "rank":8.8,
+      "name":"Forrest Gump",
+      "year":1994,
+      "hours":"2h 22min",
+      "code":"PG-13",
+      "rabkOutOfTen":"8.8/10",
+      "type":{
+        "one":"Drama",
+        "two":"Romance"
+      },
+      "brief":"The history of the United States from the 1950s to the '70s unfolds from the perspective of an Alabama man with an IQ of 75, who yearns to be reunited with his childhood sweetheart.",
+      "moreMovie":{
+        "one":"Because of your interest in",
+        "two":"Pulp Fiction",
+        "three":"Ted Lasso"
+      }
+
+
+    },
+     {
+      "id":4,
+      "src":"../public/images/topPicks/1.jpg",
+      "rank":8.8,
+      "name":"Forrest Gump",
+      "year":1994,
+      "hours":"2h 22min",
+      "code":"PG-13",
+      "rabkOutOfTen":"8.8/10",
+      "type":{
+        "one":"Drama",
+        "two":"Romance"
+      },
+      "brief":"The history of the United States from the 1950s to the '70s unfolds from the perspective of an Alabama man with an IQ of 75, who yearns to be reunited with his childhood sweetheart.",
+      "moreMovie":{
+        "one":"Because of your interest in",
+        "two":"Pulp Fiction",
+        "three":"Ted Lasso"
+      }
+
+
+    },
+     {
+      "id":5,
+      "src":"../public/images/topPicks/1.jpg",
+      "rank":8.8,
+      "name":"Forrest Gump",
+      "year":1994,
+      "hours":"2h 22min",
+      "code":"PG-13",
+      "rabkOutOfTen":"8.8/10",
+      "type":{
+        "one":"Drama",
+        "two":"Romance"
+      },
+      "brief":"The history of the United States from the 1950s to the '70s unfolds from the perspective of an Alabama man with an IQ of 75, who yearns to be reunited with his childhood sweetheart.",
+      "moreMovie":{
+        "one":"Because of your interest in",
+        "two":"Pulp Fiction",
+        "three":"Ted Lasso"
+      }
+
+
+    },
+     {
+      "id":6,
+      "src":"../public/images/topPicks/1.jpg",
+      "rank":8.8,
+      "name":"Forrest Gump",
+      "year":1994,
+      "hours":"2h 22min",
+      "code":"PG-13",
+      "rabkOutOfTen":"8.8/10",
+      "type":{
+        "one":"Drama",
+        "two":"Romance"
+      },
+      "brief":"The history of the United States from the 1950s to the '70s unfolds from the perspective of an Alabama man with an IQ of 75, who yearns to be reunited with his childhood sweetheart.",
+      "moreMovie":{
+        "one":"Because of your interest in",
+        "two":"Pulp Fiction",
+        "three":"Ted Lasso"
+      }
+
+
+    },
+     {
+      "id":7,
+      "src":"../public/images/topPicks/1.jpg",
+      "rank":8.8,
+      "name":"Forrest Gump",
+      "year":1994,
+      "hours":"2h 22min",
+      "code":"PG-13",
+      "rabkOutOfTen":"8.8/10",
+      "type":{
+        "one":"Drama",
+        "two":"Romance"
+      },
+      "brief":"The history of the United States from the 1950s to the '70s unfolds from the perspective of an Alabama man with an IQ of 75, who yearns to be reunited with his childhood sweetheart.",
+      "moreMovie":{
+        "one":"Because of your interest in",
+        "two":"Pulp Fiction",
+        "three":"Ted Lasso"
+      }
+
+
+    }
+  ]
+}

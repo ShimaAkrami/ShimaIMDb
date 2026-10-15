@@ -1,0 +1,104 @@
+.bigMenuBoxes {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+
+  display: flex;
+  flex-flow: column nowrap;
+  width: 100%;
+  height: 100vh;
+  background-color: #1f1f1f;
+  padding: 32px 0;
+
+  .headerMenu {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin: 0px 232px;
+    .logoImg {
+      width: 98px;
+      height: 49px;
+      img {
+        border-radius: 10px;
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .closeBtn {
+      border-radius: 50%;
+      width: 48px;
+      height: 48px;
+      background-color: #f5c518;
+      &:hover{
+        cursor: pointer;
+      }
+      span {
+        width: 100%;
+        height: 100%;
+        display: block;
+        color: black;
+        padding-top: 3px;
+        font-size: 30px;
+        text-align: center;
+        font-weight: lighter;
+      }
+    }
+  }
+
+  .mainMenu {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 40px 232px 0 232px;
+
+    .left,
+    .middle,
+    .right {
+      width: 334px;
+    }
+    .menuSection {
+      margin-bottom: 100px;
+      .menuSection:last-child {
+        margin-bottom: 0;
+      }
+  
+      
+      .headerMain {
+        display: flex;
+        align-items: center;
+        height: 24px;
+
+        img {
+          width: 24px;
+          height: 24px;
+        }
+
+        h2 {
+          margin: 0 0 0 8px;
+          color: white;
+          font-size: 22px;
+          font-weight: 400;
+          line-height: 22px;
+        }
+      }
+
+      ul {
+        all: unset;
+        display: block;
+        list-style: none;
+        margin-top: 12px;
+
+        li {
+          padding: 8px 16px 8px 31px;
+          color: white;
+          font-size: 16px;
+          cursor: pointer;
+        }
+
+        li:hover {
+         text-decoration:underline;
+        }
+      }
+    }
+  }
+}

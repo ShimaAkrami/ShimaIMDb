@@ -1,0 +1,198 @@
+.bookmark::before {
+  content: "\F00C4";
+  font-family: "Material Design Icons";
+}
+.wrapper {
+  width: 100%;
+  box-sizing: border-box;
+  background-color:#121212;
+  height: 56px;
+  nav {
+    height: 100%;
+    display: flex;
+    padding: 4px 0;
+    margin: 0 95px;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    ul {
+      all: unset;
+      list-style: none;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      align-items: center;
+      width: 100%;
+      justify-content: flex-start;
+  
+      li {
+        all: unset;
+        list-style: none;
+        color: white;
+        text-transform: capitalize;
+        padding: 0 16px;
+        box-sizing: border-box;
+        text-align: center;
+        a {
+          all: unset;
+
+          img {
+            width: 64px;
+            height: 32px;
+            margin-right: 6px;
+          }
+        }
+        a {
+          .hambergerMenu {
+            /*  width: 50px; */
+            span {
+              position: relative;
+              line-height: 18.4px;
+              letter-spacing: 0.28px;
+              cursor: pointer;
+              font-family: "Roboto", Helvetica, Arial, sans-serif;
+              &::before {
+                position: absolute;
+                content: "\F035C";
+                font-family: "Material Design Icons";
+                color: white;
+                top: 0;
+                left: -20px;
+                font-size: 20px;
+              }
+            }
+          }
+        }
+
+        .searchInput {
+          position: relative;
+          width: 720px;
+          height: 32px;
+          display: flex;
+          justify-content: flex-end;
+          &::before {
+            position: absolute;
+            content: "\F035D ";
+            font-family: "Material Design Icons";
+            color: black;
+            background-color: white;
+            top: 0px;
+            left: 3px;
+            border-radius: 3px 0 0 3px;
+            height: 32px;
+            width: 56px;
+            font-size: 25px;
+            align-items: center;
+            display: flex;
+            flex-direction: row-reverse;
+            cursor: pointer;
+            transition: 500ms;
+            &:hover {
+            }
+          }
+          &::after {
+            content: "All";
+            font-family: "Roboto", Helvetica, Arial, sans-serif;
+            color: black;
+            position: absolute;
+            left: 12px;
+            top: 7px;
+            font-weight: bold;
+            font-size: 18px;
+            letter-spacing: 0.28px;
+            line-height: 20px;
+          }
+          .clearIcon {
+            position: relative;
+            &::before {
+              content: "\F0349";
+              font-family: "Material Design Icons";
+              position: absolute;
+              font-size: 30px;
+              top: 3px;
+              right: 19px;
+              width: 24px;
+              height: 24px;
+              color: grey;
+              background-color: white;
+            }
+            &::after {
+              content: "";
+              font-family: Georgia, "Times New Roman", Times, serif;
+              position: absolute;
+              width: 1px;
+              height: 32px;
+              color: #bdbdbd;
+              left: -661px;
+              top: 0px;
+              background-color: grey;
+            }
+          }
+
+          input {
+            position: relative;
+            all: unset;
+            background-color: white;
+            box-sizing: border-box;
+            border-radius: 0 3px 3px 0;
+            width: 662px;
+            height: 32px;
+            padding: 5.25px 0 6px 8px;
+            background-color: white;
+            color: black;
+            text-align: left;
+            input::placeholder {
+              text-align: left;
+            }
+          }
+        }
+        a {
+          .watchList {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /*  width: 115px; */
+            &::before {
+              content: "";
+              font-family: Georgia, "Times New Roman", Times, serif;
+              position: absolute;
+              width: 2px;
+              height: 32px;
+              color: #bdbdbd;
+              left: -14px;
+              top: -6px;
+              background-color: #383838;
+            }
+            img {
+              width: 24px;
+              height: 24px;
+            }
+          }
+        }
+        a {
+          .signIn {
+            width: 50px;
+          }
+        }
+
+        a {
+          .lanPart {
+            /*   width: 48px; */
+            span {
+              position: relative;
+              text-align: center;
+              &::after {
+                position: absolute;
+                content: "\F06B6";
+                font-family: "Material Design Icons";
+                top: 1px;
+                right: -20px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

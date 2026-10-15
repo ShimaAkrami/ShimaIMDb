@@ -1,0 +1,24 @@
+.whatToWatch {
+  padding: 0 24px 12px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 95px;
+  width: 1280px;
+  height: 79px;
+  h3 {
+    color: #f5c518;
+    font-size: 28px;
+  }
+  span {
+    color: #5799ef;
+    font-size: 14px;
+    padding:8px 16px;
+    &:hover{
+        background-color:#080d16;
+        border-radius: 15px;
+        cursor: pointer;
+
+    }
+  }
+}

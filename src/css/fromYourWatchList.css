@@ -1,0 +1,122 @@
+.fromYourWatchList {
+  margin: 0 95px;
+  width: 1280px;
+
+  .upText {
+    margin-bottom: 16px;
+    padding: 0 24px;
+    .leftOne {
+      display: flex;
+      flex-flow: row nowrap;
+      align-items: center;
+      margin-bottom: 16px;
+      .goldLine {
+        width: 4px;
+        height: 26px;
+        background-color: #f5c518;
+        border-radius: 4px;
+      }
+      h3 {
+        display: flex;
+        max-height: 52.8px;
+        overflow: hidden;
+        border: none;
+        padding-left: 12px;
+        font-size: 22px;
+        color: white;
+        margin-right: 5px;
+      }
+      img {
+        width: 17px;
+        height: 17px;
+      }
+    }
+  }
+  .signBoxImdb {
+    height: 223px;
+    display: flex;
+    position: relative;
+    padding: 24px;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 24px;
+    .plusBookmarkbox {
+      position: absolute;
+      left: 628px;
+      .bookMark {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 32px;
+        height: 45px;
+        z-index: 4;
+        img {
+          border-radius: 0;
+        }
+        img {
+          &:hover {
+            background: linear-gradient(188deg, #000000, transparent);
+            cursor: pointer;
+          }
+        }
+      }
+      .plusMark {
+        position: absolute;
+        top: 3px;
+        left: 0px;
+        width: 25px;
+        height: 30px;
+        z-index: 5;
+      }
+    }
+    .textBox {
+      margin-top: 50px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 5px;
+      span.toptext {
+        font-weight: bold;
+        color: white;
+        font-size: 16px;
+      }
+      span.downtext {
+        font-weight: 400;
+        color: white;
+        font-size: 16px;
+      }
+    }
+    .buttonBox {
+    margin-top: 32px;
+      .signIn {
+        height: 36px;
+        width: 218px;
+        display: flex;
+        justify-content: center;
+        a {
+          all: unset;
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          background-color: #141414;
+          border-radius: 30px;
+          padding: 9px 24px;
+          transition: filter 0.2s ease;
+          box-sizing: border-box;
+          &:hover {
+            cursor: pointer;
+            filter: brightness(0.8);
+          }
+          span {
+            color: #5799ef;
+            font-size: 14px;
+
+            font-weight: 600;
+            line-height: 20px;
+          }
+        }
+      }
+    }
+  }
+}
