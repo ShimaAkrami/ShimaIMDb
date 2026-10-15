@@ -31,22 +31,22 @@ function bigMenu() {
      resfinal.find((item) => String(item.id) === "6"),
    );
     let movies = resfinal.find(function (item) {
-      return item.id === "1";
+      return item.id === 1;
     });
     let tvShows = resfinal.find(function (item) {
-      return item.id === "2";
+      return item.id === 2;
     });
     let awards = resfinal.find(function (item) {
-      return item.id === "3";
+      return item.id === 3;
     });
     let celebs = resfinal.find(function (item) {
-      return item.id === "4";
+      return item.id === 4;
     });
     let watch = resfinal.find(function (item) {
-      return item.id === "5";
+      return item.id === 5;
     });
     let community = resfinal.find(function (item) {
-      return item.id === "6";
+      return item.id === 6;
     });
 
     /* console.log("movies:", movies);
