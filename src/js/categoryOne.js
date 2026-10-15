@@ -1,7 +1,7 @@
 function categoryOne(){
 async function getCategoryOne() {
 let bildCategory=""
-    let data = await fetch("https://shimaakrami.github.io/IMDb/db.json");
+    let data = await fetch("https://shimaakrami.github.io/ShimaIMDb/db.json");
     let res= await data.json()
    /*  console.log(res) */
    bildCategory = res.categoryOne?.map((item) => {

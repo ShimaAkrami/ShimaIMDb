@@ -1,7 +1,7 @@
 function swiper() {
   async function getDataLeft() {
     let swiperItem = "";
-    let data = await fetch("https://shimaakrami.github.io/IMDb/db.json");
+    let data = await fetch("https://shimaakrami.github.io/ShimaIMDb/db.json");
     let res = await data.json();
     swiperItem = res.movie?.map((item) => {
       return `
@@ -96,7 +96,7 @@ function swiper() {
 
    async function getDataRight(){
     let swiperRight="";
-    let data = await fetch("https://shimaakrami.github.io/IMDb/db.json");
+    let data = await fetch("https://shimaakrami.github.io/ShimaIMDb/db.json");
     let res=await data.json();
     swiperRight = res.movie?.map((item) => {
       return `

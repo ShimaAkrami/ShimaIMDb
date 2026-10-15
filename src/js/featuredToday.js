@@ -1,7 +1,7 @@
 function featuredToday() {
   async function getDataFeatured() {
     let getDataFeatured = "";
-    let data = await fetch("https://shimaakrami.github.io/IMDb/db.json");
+    let data = await fetch("https://shimaakrami.github.io/ShimaIMDb/db.json");
     let res = await data.json();
     getDataFeatured = res.featuredToday?.map((item) => {
       return `

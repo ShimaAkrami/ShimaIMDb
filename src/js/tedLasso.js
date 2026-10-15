@@ -40,7 +40,7 @@ function tedLasso() {
   }
   async function getDataTedLasso() {
     let getData = "";
-    let data = await fetch("https://shimaakrami.github.io/IMDb/db.json");
+    let data = await fetch("https://shimaakrami.github.io/ShimaIMDb/db.json");
     let res = await data.json();
     tedLassoData = res.tedLasso;
     let firstSeason = tedLassoData.find(function (item) {

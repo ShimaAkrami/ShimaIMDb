@@ -1,7 +1,7 @@
 function trendingPeaple() {
   async function getpeopleTrending() {
     let getPeople = "";
-    let data = await fetch("https://shimaakrami.github.io/IMDb/db.json");
+    let data = await fetch("https://shimaakrami.github.io/ShimaIMDb/db.json");
     let res = await data.json();
     getPeople = res.trendingPeople?.map((item) => {
       return `

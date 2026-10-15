@@ -1,6 +1,6 @@
 function bigMenu() {
   async function getBigMenu() {
-    let data = await fetch("https://shimaakrami.github.io/IMDb/db.json");
+    let data = await fetch("https://shimaakrami.github.io/ShimaIMDb/db.json");
 
     let res = await data.json();
     let resfinal = res.bigMenu;
