@@ -4,9 +4,32 @@ function bigMenu() {
 
     let res = await data.json();
     let resfinal = res.bigMenu;
-    /*   console.log("res:", res);
-    console.log("is array:", Array.isArray(res));
-    console.log("first item:", res[0]); */
+   console.log("res:", res);
+   console.log("resfinal:", resfinal);
+   console.log(
+     "movies:",
+     resfinal.find((item) => String(item.id) === "1"),
+   );
+   console.log(
+     "tvShows:",
+     resfinal.find((item) => String(item.id) === "2"),
+   );
+   console.log(
+     "awards:",
+     resfinal.find((item) => String(item.id) === "3"),
+   );
+   console.log(
+     "celebs:",
+     resfinal.find((item) => String(item.id) === "4"),
+   );
+   console.log(
+     "watch:",
+     resfinal.find((item) => String(item.id) === "5"),
+   );
+   console.log(
+     "community:",
+     resfinal.find((item) => String(item.id) === "6"),
+   );
     let movies = resfinal.find(function (item) {
       return item.id === "1";
     });

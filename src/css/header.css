@@ -37,11 +37,7 @@
         a {
           
           all: unset;
-          &:hover {
-            cursor: pointer;
-            background-color: #252525;
-            border-radius: 20px;
-          }
+       
           img {
             width: 57px;
             height: 32px;
