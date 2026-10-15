@@ -35,9 +35,7 @@
         text-align: center;
 
         a {
-           width: 57px;
-            height: 32px;
-            margin-right: 6px;
+          
           all: unset;
           &:hover {
             cursor: pointer;
