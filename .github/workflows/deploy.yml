@@ -33,7 +33,7 @@ jobs:
           cp -R src/. dist/
           cp -R public/images dist/public/
           cp db.json dist/db.json
-          find dist -type f \( -name "*.html" -o -name "*.css" -o -name "*.json" \) -exec sed -i 's|\.\./public/images/|./public/images/|g' {} +
+          find dist -type f \( -name "*.html" -o -name "*.js" -o -name "*.json" \) -exec sed -i 's|\.\./public/images/|./public/images/|g' {} +
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
