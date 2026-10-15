@@ -633,7 +633,7 @@
       "id": 1,
       "name": "Ruby Stokes",
       "currentRank": 50,
-      "peopleCount": "7,560",
+      "peopleCount": 60,
       "src": "../public/images/trendingPeaple/1.jpg",
       "title": "Top rising"
     },
@@ -641,7 +641,7 @@
       "id": 2,
       "name": "Alison Thornton",
       "currentRank": 10,
-      "peopleCount": "5,735",
+      "peopleCount": 35,
       "src": "../public/images/trendingPeaple/2.jpg",
       "title": ""
     },
@@ -773,7 +773,7 @@
       },
       "brief":"The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
       "moreMovie":{
-        "one":"Because of your interest in",
+        "one":"",
         "two":"Pulp Fiction",
         "three":"Ted Lasso"
       }
@@ -795,7 +795,7 @@
       },
       "brief":"Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan.",
       "moreMovie":{
-        "one":"Because of your interest in",
+        "one":"",
         "two":"Pulp Fiction",
         "three":""
       }
@@ -817,7 +817,7 @@
       },
       "brief":"After waking from a four-year coma, a former assassin wreaks vengeance on the team of assassins who betrayed her.",
       "moreMovie":{
-        "one":"Because of your interest in",
+        "one":"",
         "two":"Pulp Fiction",
         "three":""
       }
@@ -839,7 +839,7 @@
       },
       "brief":"In German-occupied Poland during World War II, industrialist Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis.",
       "moreMovie":{
-        "one":"Because of your interest in",
+        "one":"",
         "two":"Pulp Fiction",
         "three":"Ted Lasso"
       }
@@ -861,7 +861,7 @@
       },
       "brief":"TA chemistry teacher diagnosed with inoperable lung cancer turns to manufacturing and selling methamphetamine with a former student to secure his family's future.",
       "moreMovie":{
-        "one":"Because of your interest in",
+        "one":"",
         "two":"Pulp Fiction",
         "three":"Ted Lasso"
       }
@@ -883,7 +883,7 @@
       },
       "brief":"A computer hacker discovers that his life is nothing more than an elaborate simulation run by an evil AI.",
       "moreMovie":{
-        "one":"Because of your interest in",
+        "one":"",
         "two":"Pulp Fiction",
         "three":""
       }
