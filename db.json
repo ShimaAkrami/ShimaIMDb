@@ -633,7 +633,7 @@
       "id": 1,
       "name": "Ruby Stokes",
       "currentRank": 50,
-      "peopleCount": 7.56,
+      "peopleCount": "7,560",
       "src": "../public/images/trendingPeaple/1.jpg",
       "title": "Top rising"
     },
@@ -641,97 +641,97 @@
       "id": 2,
       "name": "Alison Thornton",
       "currentRank": 10,
-      "peopleCount": 5.735,
+      "peopleCount": "5,735",
       "src": "../public/images/trendingPeaple/2.jpg",
       "title": ""
     },
     {
       "id": 3,
-      "name": "Ruby Stokes",
-      "currentRank": 50,
-      "peopleCount": 7.56,
-      "src": "../public/images/trendingPeaple/1.jpg",
+      "name": "Florence Pugh",
+      "currentRank": 1,
+      "peopleCount": 4,
+      "src": "../public/images/trendingPeaple/3.jpg",
       "title": "Top rising"
     },
     {
       "id": 4,
-      "name": "Ruby Stokes",
-      "currentRank": 50,
-      "peopleCount": 7.56,
-      "src": "../public/images/trendingPeaple/1.jpg",
-      "title": "Top rising"
+      "name": "Summer H. Howell",
+      "currentRank": 2,
+      "peopleCount": 730,
+      "src": "../public/images/trendingPeaple/4.jpg",
+      "title": ""
     },
     {
       "id": 5,
-      "name": "Ruby Stokes",
-      "currentRank": 50,
-      "peopleCount": 7.56,
-      "src": "../public/images/trendingPeaple/1.jpg",
-      "title": "Top rising"
+      "name": "Josh Hartnett",
+      "currentRank": 3,
+      "peopleCount": 21,
+      "src": "../public/images/trendingPeaple/5.jpg",
+      "title": ""
     },
     {
       "id": 6,
-      "name": "Ruby Stokes",
-      "currentRank": 50,
-      "peopleCount": 7.56,
-      "src": "../public/images/trendingPeaple/1.jpg",
-      "title": "Top rising"
+      "name": "Christopher Abbott",
+      "currentRank": 4,
+      "peopleCount": 10,
+      "src": "../public/images/trendingPeaple/6.jpg",
+      "title": ""
     },
     {
       "id": 7,
-      "name": "Ruby Stokes",
-      "currentRank": 50,
-      "peopleCount": 7.56,
-      "src": "../public/images/trendingPeaple/1.jpg",
-      "title": "Top rising"
+      "name": "Ella Beatty",
+      "currentRank": 5,
+      "peopleCount": 4,
+      "src": "../public/images/trendingPeaple/7.jpg",
+      "title": ""
     },
     {
       "id": 8,
-      "name": "Ruby Stokes",
-      "currentRank": 50,
-      "peopleCount": 7.56,
-      "src": "../public/images/trendingPeaple/1.jpg",
-      "title": "Top rising"
+      "name": "Mike Flanagan",
+      "currentRank": 6,
+      "peopleCount": 140,
+      "src": "../public/images/trendingPeaple/8.jpg",
+      "title": ""
     },
     {
       "id": 9,
-      "name": "Ruby Stokes",
-      "currentRank": 50,
-      "peopleCount": 7.56,
-      "src": "../public/images/trendingPeaple/1.jpg",
-      "title": "Top rising"
+      "name": "Mackenzie Davis",
+      "currentRank": 7,
+      "peopleCount": 543,
+      "src": "../public/images/trendingPeaple/9.jpg",
+      "title": ""
     },
     {
       "id": 10,
-      "name": "Ruby Stokes",
-      "currentRank": 50,
-      "peopleCount": 7.56,
-      "src": "../public/images/trendingPeaple/1.jpg",
-      "title": "Top rising"
+      "name": "Samantha Sloyan",
+      "currentRank": 8,
+      "peopleCount": "1,248",
+      "src": "../public/images/trendingPeaple/10.jpg",
+      "title": ""
     },
     {
       "id": 11,
-      "name": "Ruby Stokes",
-      "currentRank": 50,
-      "peopleCount": 7.56,
-      "src": "../public/images/trendingPeaple/1.jpg",
+      "name": "Mike Faist",
+      "currentRank": 9,
+      "peopleCount": 26,
+      "src": "../public/images/trendingPeaple/11.jpg",
       "title": "Top rising"
     },
     {
       "id": 12,
-      "name": "Ruby Stokes",
-      "currentRank": 50,
-      "peopleCount": 7.56,
-      "src": "../public/images/trendingPeaple/1.jpg",
-      "title": "Top rising"
+      "name": "Dakota Johnson",
+      "currentRank":11,
+      "peopleCount": 9,
+      "src": "../public/images/trendingPeaple/12.jpg",
+      "title": ""
     },
     {
       "id": 13,
-      "name": "Ruby Stokes",
-      "currentRank": 50,
-      "peopleCount": 7.56,
-      "src": "../public/images/trendingPeaple/1.jpg",
-      "title": "Top rising"
+      "name": "Anne Hathaway",
+      "currentRank": 12,
+      "peopleCount": 2,
+      "src": "../public/images/trendingPeaple/13.jpg",
+      "title": ""
     }
   ],
   "topPicks":[
