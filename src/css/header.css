@@ -5,7 +5,7 @@
 .wrapper {
   width: 100%;
   box-sizing: border-box;
-  background-color:#121212;
+  background-color: #121212;
   height: 56px;
   nav {
     height: 100%;
@@ -24,7 +24,7 @@
       align-items: center;
       width: 100%;
       justify-content: flex-start;
-  
+
       li {
         all: unset;
         list-style: none;
@@ -33,11 +33,19 @@
         padding: 0 16px;
         box-sizing: border-box;
         text-align: center;
-        a {
-          all: unset;
 
+        a {
+           width: 57px;
+            height: 32px;
+            margin-right: 6px;
+          all: unset;
+          &:hover {
+            cursor: pointer;
+            background-color: #252525;
+            border-radius: 20px;
+          }
           img {
-            width: 64px;
+            width: 57px;
             height: 32px;
             margin-right: 6px;
           }
