@@ -33,6 +33,7 @@ jobs:
           cp -R src/. dist/
           cp -R public/images dist/public/
           cp db.json dist/db.json
+          sed -i ' ' 's|\.\./public/images/|./public/images/|g' dist/db.json
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
