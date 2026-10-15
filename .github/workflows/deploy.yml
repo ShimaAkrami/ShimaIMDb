@@ -28,12 +28,11 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Prepare website
-        run: |
-          mkdir -p dist/public
-          cp -R src/. dist/
-          cp -R public/images dist/public/
-          cp db.json dist/db.json
-          find dist -type f \( -name "*.html" -o -name "*.js" -o -name "*.json" \) -exec sed -i 's|\.\./public/images/|./public/images/|g' {} +
+  run: |
+    mkdir -p dist/public
+    cp -R src/. dist/
+    cp -R public/images dist/public/images
+    cp db.json dist/db.json
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
