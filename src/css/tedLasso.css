@@ -484,6 +484,10 @@
       }
     }
   }
+            .swiper-button-next::after,
+.swiper-button-prev::after {
+  display: none;
+}
   .swiperTed .swiper-navigation-icon {
     display: none;
   }
