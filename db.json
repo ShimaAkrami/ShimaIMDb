@@ -760,18 +760,18 @@
     },
      {
       "id":2,
-      "src":"../public/images/topPicks/1.jpg",
-      "rank":8.8,
-      "name":"Forrest Gump",
-      "year":1994,
-      "hours":"2h 22min",
-      "code":"PG-13",
-      "rabkOutOfTen":"8.8/10",
+      "src":"../public/images/topPicks/2.jpg",
+      "rank":9.2,
+      "name":"The Godfather",
+      "year":1972,
+      "hours":"2h 55min",
+      "code":"R",
+      "rabkOutOfTen":"9.2/10",
       "type":{
         "one":"Drama",
-        "two":"Romance"
+        "two":"crime"
       },
-      "brief":"The history of the United States from the 1950s to the '70s unfolds from the perspective of an Alabama man with an IQ of 75, who yearns to be reunited with his childhood sweetheart.",
+      "brief":"The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
       "moreMovie":{
         "one":"Because of your interest in",
         "two":"Pulp Fiction",
@@ -782,62 +782,62 @@
     },
      {
       "id":3,
-      "src":"../public/images/topPicks/1.jpg",
-      "rank":8.8,
-      "name":"Forrest Gump",
-      "year":1994,
-      "hours":"2h 22min",
-      "code":"PG-13",
-      "rabkOutOfTen":"8.8/10",
+      "src":"../public/images/topPicks/3.jpg",
+      "rank":8.5,
+      "name":"Parasite",
+      "year":2019,
+      "hours":"2h 12min",
+      "code":"R",
+      "rabkOutOfTen":"8.5/10",
       "type":{
         "one":"Drama",
-        "two":"Romance"
+        "two":"Thriller"
       },
-      "brief":"The history of the United States from the 1950s to the '70s unfolds from the perspective of an Alabama man with an IQ of 75, who yearns to be reunited with his childhood sweetheart.",
+      "brief":"Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan.",
       "moreMovie":{
         "one":"Because of your interest in",
         "two":"Pulp Fiction",
-        "three":"Ted Lasso"
+        "three":""
       }
 
 
     },
      {
       "id":4,
-      "src":"../public/images/topPicks/1.jpg",
-      "rank":8.8,
-      "name":"Forrest Gump",
-      "year":1994,
-      "hours":"2h 22min",
-      "code":"PG-13",
-      "rabkOutOfTen":"8.8/10",
+      "src":"../public/images/topPicks/4.jpg",
+      "rank":8.2,
+      "name":"Kill Bill: Vol. 1",
+      "year":2003,
+      "hours":"1h 51min",
+      "code":"R",
+      "rabkOutOfTen":"8.2/10",
       "type":{
-        "one":"Drama",
-        "two":"Romance"
+        "one":"Action",
+        "two":"Crime"
       },
-      "brief":"The history of the United States from the 1950s to the '70s unfolds from the perspective of an Alabama man with an IQ of 75, who yearns to be reunited with his childhood sweetheart.",
+      "brief":"After waking from a four-year coma, a former assassin wreaks vengeance on the team of assassins who betrayed her.",
       "moreMovie":{
         "one":"Because of your interest in",
         "two":"Pulp Fiction",
-        "three":"Ted Lasso"
+        "three":""
       }
 
 
     },
      {
       "id":5,
-      "src":"../public/images/topPicks/1.jpg",
-      "rank":8.8,
-      "name":"Forrest Gump",
-      "year":1994,
-      "hours":"2h 22min",
-      "code":"PG-13",
-      "rabkOutOfTen":"8.8/10",
+      "src":"../public/images/topPicks/5.jpg",
+      "rank":9.0,
+      "name":"Schindler's List",
+      "year":1993,
+      "hours":"3h 16min",
+      "code":"R",
+      "rabkOutOfTen":"9.0/10",
       "type":{
         "one":"Drama",
-        "two":"Romance"
+        "two":"History"
       },
-      "brief":"The history of the United States from the 1950s to the '70s unfolds from the perspective of an Alabama man with an IQ of 75, who yearns to be reunited with his childhood sweetheart.",
+      "brief":"In German-occupied Poland during World War II, industrialist Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis.",
       "moreMovie":{
         "one":"Because of your interest in",
         "two":"Pulp Fiction",
@@ -848,18 +848,18 @@
     },
      {
       "id":6,
-      "src":"../public/images/topPicks/1.jpg",
-      "rank":8.8,
-      "name":"Forrest Gump",
-      "year":1994,
-      "hours":"2h 22min",
-      "code":"PG-13",
-      "rabkOutOfTen":"8.8/10",
+      "src":"../public/images/topPicks/6.jpg",
+      "rank":9.5,
+      "name":"Breaking Bad",
+      "year":"2008-2013",
+      "hours":"48min",
+      "code":"TV-MA",
+      "rabkOutOfTen":"9.5/10",
       "type":{
         "one":"Drama",
-        "two":"Romance"
+        "two":"Crime"
       },
-      "brief":"The history of the United States from the 1950s to the '70s unfolds from the perspective of an Alabama man with an IQ of 75, who yearns to be reunited with his childhood sweetheart.",
+      "brief":"TA chemistry teacher diagnosed with inoperable lung cancer turns to manufacturing and selling methamphetamine with a former student to secure his family's future.",
       "moreMovie":{
         "one":"Because of your interest in",
         "two":"Pulp Fiction",
@@ -870,22 +870,22 @@
     },
      {
       "id":7,
-      "src":"../public/images/topPicks/1.jpg",
-      "rank":8.8,
-      "name":"Forrest Gump",
-      "year":1994,
-      "hours":"2h 22min",
-      "code":"PG-13",
-      "rabkOutOfTen":"8.8/10",
+      "src":"../public/images/topPicks/7.jpg",
+      "rank":8.7,
+      "name":"The Matrix",
+      "year":1999,
+      "hours":"2h 16min",
+      "code":"R",
+      "rabkOutOfTen":"8.7/10",
       "type":{
-        "one":"Drama",
-        "two":"Romance"
+        "one":"Action",
+        "two":"Sci-Fi"
       },
-      "brief":"The history of the United States from the 1950s to the '70s unfolds from the perspective of an Alabama man with an IQ of 75, who yearns to be reunited with his childhood sweetheart.",
+      "brief":"A computer hacker discovers that his life is nothing more than an elaborate simulation run by an evil AI.",
       "moreMovie":{
         "one":"Because of your interest in",
         "two":"Pulp Fiction",
-        "three":"Ted Lasso"
+        "three":""
       }
 
 
